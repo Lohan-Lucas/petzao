@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petzão Pet Shop | Banho e Tosa, Veterinário e Pet Shop em Maracanaú e Fortaleza</title>
+  <meta name="description" content="Petzão Pet Shop: consultório veterinário, centro estético (banho e tosa), táxi pet e loja completa com rações, medicamentos e acessórios. Unidades no Timbó (Maracanaú) e na Maraponga (Fortaleza). Nota 4,7 no Google.">
+  <meta name="theme-color" content="#09711D">
+
+  <!-- Open Graph (prévia ao compartilhar no WhatsApp/Instagram/Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Petzão Pet Shop">
+  <meta property="og:title" content="Petzão Pet Shop | Cuidando sempre de quem você ama">
+  <meta property="og:description" content="Consultório veterinário, banho e tosa, táxi pet e loja completa em Maracanaú e Fortaleza. Nota 4,7 no Google.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "PetStore",
+      "name": "Petzão Pet Shop – Timbó",
+      "image": "assets/img/logo.jpg",
+      "telephone": "+55 85 99253-3007",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Vereador Edmilson Marques, 411A – Timbó",
+        "addressLocality": "Maracanaú",
+        "addressRegion": "CE",
+        "postalCode": "61936-460",
+        "addressCountry": "BR"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": -3.8777506, "longitude": -38.6081063 },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "19:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "18:00" }
+      ],
+      "sameAs": ["https://www.instagram.com/pet_zao/"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PetStore",
+      "name": "Petzão Pet Shop – Maraponga",
+      "image": "assets/img/logo.jpg",
+      "telephone": "+55 85 99243-3927",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Godofredo Maciel, 2640 – Loja 4 (Pátio Maraponga)",
+        "addressLocality": "Fortaleza",
+        "addressRegion": "CE",
+        "addressCountry": "BR"
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "17:00" }
+      ],
+      "sameAs": ["https://www.instagram.com/petzao_maraponga/"]
+    }
+  ]
+  </script>
+</head>
+<body>
+
+  <!-- Ícones (sprite SVG) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-paw" viewBox="0 0 24 24"><ellipse cx="5.5" cy="9.5" rx="2.1" ry="2.7" transform="rotate(-18 5.5 9.5)"/><ellipse cx="9.6" cy="5.4" rx="2.1" ry="2.8" transform="rotate(-6 9.6 5.4)"/><ellipse cx="14.4" cy="5.4" rx="2.1" ry="2.8" transform="rotate(6 14.4 5.4)"/><ellipse cx="18.5" cy="9.5" rx="2.1" ry="2.7" transform="rotate(18 18.5 9.5)"/><path d="M12 11.2c-3.1 0-6.3 4.1-6.3 6.7 0 1.8 1.4 2.7 3 2.7 1.4 0 2.1-.7 3.3-.7s1.9.7 3.3.7c1.6 0 3-.9 3-2.7 0-2.6-3.2-6.7-6.3-6.7Z"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.59-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35Zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88Zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.41Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.2l2.96 6.2 6.8.83-5 4.7 1.28 6.73L12 17.4l-6.04 3.26 1.28-6.73-5-4.7 6.8-.83L12 2.2Z"/></symbol>
+    <symbol id="i-steth" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3H4v5.5a5 5 0 0 0 10 0V3h-1"/><path d="M9 13.5V15a5.5 5.5 0 0 0 11 0v-2.5"/><circle cx="20" cy="10.5" r="2"/></symbol>
+    <symbol id="i-scissors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.12 15.88M14.47 14.48 20 20M8.12 8.12 12 12"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2a1 1 0 0 0 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3A2.6 2.6 0 0 0 12 7H5a1.6 1.6 0 0 0-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4a1 1 0 0 0 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 6.5V12l3.5 2"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5Z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Cabeçalho -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Petzão Pet Shop – início">
+        <img src="assets/img/logo.jpg" alt="Petzão Pet Shop" width="150" height="150">
+      </a>
+
+      <nav class="main-nav" id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#estetica">Banho &amp; Tosa</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#unidades">Unidades</a></li>
+        </ul>
+        <a class="btn btn--green btn--sm nav-cta" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20o%20meu%20pet." target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Agendar
+        </a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>
+        <span class="sr-only">Abrir menu</span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <svg class="paw-deco paw-deco--1" aria-hidden="true"><use href="#i-paw"/></svg>
+      <svg class="paw-deco paw-deco--2" aria-hidden="true"><use href="#i-paw"/></svg>
+      <svg class="paw-deco paw-deco--3" aria-hidden="true"><use href="#i-paw"/></svg>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-paw"/></svg> Pet shop · Estética · Veterinário</p>
+          <h1>Cuidando sempre de <span class="hl">quem você ama.</span></h1>
+          <p class="lead">Mais que um petshop, uma família para o seu pet. Consultório veterinário, banho e tosa com hora marcada, táxi pet e tudo o que seu melhor amigo precisa — no Timbó (Maracanaú) e na Maraponga (Fortaleza).</p>
+
+          <div class="hero-actions">
+            <a class="btn btn--green btn--lg" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20banho%20e%20tosa%20para%20o%20meu%20pet." target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Agendar banho e tosa
+            </a>
+            <a class="btn btn--outline btn--lg" href="https://wa.me/5585992533007?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener">
+              Fazer um pedido
+            </a>
+          </div>
+
+          <a class="rating-pill" href="#avaliacoes">
+            <span class="rating-pill__score">4,7</span>
+            <span class="stars" aria-hidden="true">
+              <svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg>
+            </span>
+            <span class="rating-pill__text">66 avaliações no Google</span>
+          </a>
+        </div>
+
+        <div class="hero-visual">
+          <div class="blob-frame">
+            <img src="assets/img/golden.jpg" alt="Golden retriever de óculos escuros e bandana, cliente do Petzão" width="360" height="640">
+          </div>
+          <div class="float-card float-card--top">
+            <span class="float-card__icon"><svg aria-hidden="true"><use href="#i-scissors"/></svg></span>
+            <span><strong>Banho &amp; Tosa</strong><br>com hora marcada</span>
+          </div>
+          <div class="float-card float-card--bottom">
+            <span class="float-card__icon float-card__icon--orange"><svg aria-hidden="true"><use href="#i-steth"/></svg></span>
+            <span><strong>Consultório</strong><br>veterinário</span>
+          </div>
+        </div>
+      </div>
+
+      <svg class="wave wave--bottom" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c160 40 320 55 520 38S900 0 1100 10s260 40 340 48v32H0Z"/></svg>
+    </section>
+
+    <!-- Números -->
+    <section class="stats" aria-label="Petzão em números">
+      <div class="container stats-grid">
+        <div class="stat"><strong>4,7<span>★</span></strong><span>nota no Google</span></div>
+        <div class="stat"><strong>+39 mil</strong><span>seguidores no Instagram</span></div>
+        <div class="stat"><strong>2</strong><span>unidades para te atender</span></div>
+        <div class="stat"><strong>Seg a Sáb</strong><span>abertos a partir das 8h</span></div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-paw"/></svg> Nossos serviços</p>
+          <h2>Tudo para o seu pet em um só lugar</h2>
+          <p>Da primeira vacina ao banho caprichado: cuidado completo, feito com carinho por quem ama bicho.</p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="service-card__icon"><svg aria-hidden="true"><use href="#i-steth"/></svg></span>
+            <h3>Consultório veterinário</h3>
+            <p>Consultas e exames com profissionais que tratam seu pet como da família. Não medique por conta própria — conte com a gente.</p>
+            <a class="link-arrow" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20veterin%C3%A1ria." target="_blank" rel="noopener">Agendar consulta <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service-card service-card--orange reveal">
+            <span class="service-card__icon"><svg aria-hidden="true"><use href="#i-scissors"/></svg></span>
+            <h3>Centro estético</h3>
+            <p>Banho, tosa, tosa higiênica, tosa bebê, hidratação e remoção de subpelo. Atendimento individualizado, sem pressa.</p>
+            <a class="link-arrow" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20banho%20e%20tosa." target="_blank" rel="noopener">Agendar banho e tosa <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-card__icon"><svg aria-hidden="true"><use href="#i-bag"/></svg></span>
+            <h3>Loja completa</h3>
+            <p>Rações, medicamentos, acessórios e muito mais, com preço justo e promoção toda semana. Peça pelo WhatsApp!</p>
+            <a class="link-arrow" href="https://wa.me/5585992533007?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener">Fazer pedido <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service-card service-card--magenta reveal">
+            <span class="service-card__icon"><svg aria-hidden="true"><use href="#i-car"/></svg></span>
+            <h3>Táxi Pet</h3>
+            <p>Sem tempo de levar? A gente busca e devolve seu pet com todo o cuidado, direto na sua casa.</p>
+            <a class="link-arrow" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20sobre%20o%20T%C3%A1xi%20Pet." target="_blank" rel="noopener">Consultar Táxi Pet <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Centro estético -->
+    <section class="section section--cream" id="estetica">
+      <div class="container split">
+        <div class="split-media reveal">
+          <figure class="photo photo--tilt-l">
+            <img src="assets/img/poodle.jpg" alt="Poodle branco recém-tosado na mesa do centro estético do Petzão" width="360" height="640" loading="lazy">
+          </figure>
+          <figure class="photo photo--tilt-r">
+            <img src="assets/img/shihtzu.jpg" alt="Lhasa apso de pelo longo com lacinhos após o banho" width="360" height="640" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="split-copy">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-paw"/></svg> Centro estético</p>
+          <h2>Aqui, estética é muito mais do que deixar seu pet cheiroso</h2>
+          <p>Cada pet recebe um atendimento individualizado, com produtos de qualidade e profissionais que respeitam o tempo e o jeitinho de cada um. Com horário marcado, seu pet espera menos e fica mais tranquilo.</p>
+          <ul class="check-list">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg> Banho e hidratação</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg> Tosa completa e tosa bebê</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg> Tosa higiênica</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg> Remoção de subpelo</li>
+          </ul>
+          <a class="btn btn--orange btn--lg" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20banho%20e%20tosa." target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Marcar horário
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Avaliações -->
+    <section class="section section--green" id="avaliacoes">
+      <svg class="paw-deco paw-deco--4" aria-hidden="true"><use href="#i-paw"/></svg>
+      <div class="container">
+        <header class="section-head section-head--light">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-paw"/></svg> Quem conhece, recomenda</p>
+          <h2>O que os tutores dizem sobre o Petzão</h2>
+          <div class="rating-summary">
+            <span class="rating-summary__score">4,7</span>
+            <span class="stars stars--lg" aria-hidden="true">
+              <svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg>
+            </span>
+            <span class="rating-summary__text">média de 66 avaliações no Google</span>
+          </div>
+        </header>
+
+        <div class="carousel" data-carousel role="region" aria-roledescription="carrossel" aria-label="Avaliações de clientes no Google">
+          <div class="carousel__controls">
+            <button class="carousel__btn" type="button" data-prev aria-label="Avaliação anterior"><svg aria-hidden="true" style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+            <button class="carousel__btn carousel__btn--toggle" type="button" data-toggle aria-label="Pausar rotação automática"><svg aria-hidden="true"><use href="#i-pause"/></svg></button>
+            <button class="carousel__btn" type="button" data-next aria-label="Próxima avaliação"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+
+          <ul class="carousel__track" data-track tabindex="0" aria-live="off">
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Excelente atendimento e serviço de qualidade para com nossos bichinhos. Eu super recomendo, eles são muito atenciosos, dedicados e cuidadosos com nossos amiguinhos de quatro patas, gostei demais!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--green" aria-hidden="true">M</span><span><strong>Michel B.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Melhor lugar para atendimento veterinário e banho dos pets. Além de ter um ótimo atendimento, conta com venda de medicamentos, acessórios e ração.”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--orange" aria-hidden="true">R</span><span><strong>Rafela F.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“São os melhores de Maracanaú! Sou cliente deles desde que eram na garagem de casa. Atendimento veterinário e banho são os melhores, minha cachorra foi super bem atendida nos 2 quesitos.”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--magenta" aria-hidden="true">I</span><span><strong>Italo F.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Minha princesa é muito bem cuidada no Petzão... confio plenamente em toda equipe. Nota mil.”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--green" aria-hidden="true">S</span><span><strong>Socorro G.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Ótimo atendimento. Possuem a mais variada gama de produtos para o seu pet, além dos excelentes serviços de banho, tosa e atendimento veterinário. Profissionais capacitados para fornecer a melhor experiência para o seu pet. Recomendo.”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--orange" aria-hidden="true">R</span><span><strong>Robson L.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Atendimento top! Bem humanizado! Você vê que eles realmente amam o que fazem!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--magenta" aria-hidden="true">B</span><span><strong>Bruno N.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Essa loja é simplesmente maravilhosa! O atendimento é excelente, muito atencioso e rápido. Recomendo de olhos fechados!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--green" aria-hidden="true">M</span><span><strong>Mônica O.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Ótimo atendimento, ótimos preços e uma equipe qualificada onde se vê que trabalham com amor aos pets! Petzão, o melhor petshop da região!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--orange" aria-hidden="true">V</span><span><strong>Venicio J.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“O melhor em todos os sentidos, recomendo demais. Qualidade, carinho e compromisso em um só lugar. Parabéns! 👏🏽👏🏽”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--magenta" aria-hidden="true">L</span><span><strong>Luccas F.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Um ótimo local, atendimento super qualificado, sem falar dos serviços de tosa e banho! Super indico, pois tem ampla variedade de rações!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--green" aria-hidden="true">A</span><span><strong>Axel G.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Ótimo atendimento, preço acessível, vende de tudo e possui uma nova estrutura super aconchegante. Recomendo.”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--orange" aria-hidden="true">J</span><span><strong>Junior X.</strong><small>Local Guide no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Sem dúvidas o melhor petshop de Maracanaú! Cuidado e amor indescritíveis com seu pet, produtos de qualidade e atendimento nota mil!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--magenta" aria-hidden="true">R</span><span><strong>Rebeca R.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“A loja tem tudo para o pet 🐕🐈, com atendimento excelente e profissionais super capacitados!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--green" aria-hidden="true">T</span><span><strong>Thiago M.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Melhor pet de Maracanaú, meu cachorrinho ama. Super indico!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--orange" aria-hidden="true">J</span><span><strong>Jéssica A.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Serviços, alimentação e vasta gama de utensílios pros nossos petzinhos! Excelência!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--magenta" aria-hidden="true">Y</span><span><strong>Yuri O.</strong><small>Local Guide no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Excelente atendimento, com tudo que há de melhor para o seu pet e ótimos profissionais. Sem contar o ambiente incrível!”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--green" aria-hidden="true">A</span><span><strong>Aurélio F.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Atendimento top e preços excelentes, vale a pena visitar a loja! 😁👍🏾”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--orange" aria-hidden="true">R</span><span><strong>Rodolfo S.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+            <li class="review-card">
+              <div class="review-card__stars" role="img" aria-label="5 de 5 estrelas"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <blockquote>“Amei tudo, atendimento perfeito 👏🏼🤩 Meus bebês pet amam! Petshop perfeito, muito amor ❤️”</blockquote>
+              <footer class="review-card__author"><span class="avatar avatar--magenta" aria-hidden="true">L</span><span><strong>Lanny L.</strong><small>Avaliação no Google</small></span></footer>
+            </li>
+          </ul>
+
+          <div class="carousel__dots" data-dots aria-label="Escolher grupo de avaliações"></div>
+        </div>
+
+        <div class="reviews-cta">
+          <a class="btn btn--orange" href="https://g.co/kgs/Vya1VFR" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg> Avalie o Petzão no Google
+          </a>
+          <a class="btn btn--ghost-light" href="https://www.google.com/maps?cid=17668108816640209402" target="_blank" rel="noopener">Ver todas as avaliações</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram -->
+    <section class="section section--tight" id="instagram">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg> @pet_zao</p>
+          <h2>O dia a dia do Petzão</h2>
+          <p>Clientes de quatro patas, bastidores do banho e tosa e as promoções da semana. Siga a gente!</p>
+        </header>
+
+        <div class="insta-grid">
+          <a class="insta-tile reveal" href="https://www.instagram.com/pet_zao/" target="_blank" rel="noopener">
+            <img src="assets/img/loja.jpg" alt="Loja do Petzão cheia de clientes, com prateleiras de rações" width="360" height="640" loading="lazy">
+            <span class="insta-tile__label">Nossa loja</span>
+          </a>
+          <a class="insta-tile reveal" href="https://www.instagram.com/pet_zao/" target="_blank" rel="noopener">
+            <img src="assets/img/tosa.jpg" alt="Tosadora aparando o pelo de um cachorro com a máquina" width="360" height="640" loading="lazy">
+            <span class="insta-tile__label">Tosa com carinho</span>
+          </a>
+          <a class="insta-tile reveal" href="https://www.instagram.com/pet_zao/" target="_blank" rel="noopener">
+            <img src="assets/img/golden.jpg" alt="Golden retriever de óculos escuros e bandana" width="360" height="640" loading="lazy">
+            <span class="insta-tile__label">Clientes estilosos</span>
+          </a>
+          <a class="insta-tile reveal" href="https://www.instagram.com/pet_zao/" target="_blank" rel="noopener">
+            <img src="assets/img/equipe.jpg" alt="Equipe do centro estético do Petzão, de uniforme roxo, comemorando na sala de banho e tosa" width="360" height="430" loading="lazy">
+            <span class="insta-tile__label">Nossa equipe</span>
+          </a>
+        </div>
+
+        <div class="center">
+          <a class="btn btn--magenta" href="https://www.instagram.com/pet_zao/" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg> Seguir @pet_zao
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unidades -->
+    <section class="section section--cream" id="unidades">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Nossas unidades</p>
+          <h2>Venha visitar a gente</h2>
+          <p>Duas lojas completas, com consultório veterinário e centro estético.</p>
+        </header>
+
+        <div class="units-grid">
+          <article class="unit-card reveal">
+            <div class="unit-card__map">
+              <iframe title="Mapa do Petzão Timbó, em Maracanaú" src="https://www.google.com/maps?q=Petz%C3%A3o+Pet+Shop,+Av.+Ver.+Edmilson+Marques+-+Timb%C3%B3,+Maracana%C3%BA+-+CE&amp;z=17&amp;hl=pt-BR&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="unit-card__body">
+              <span class="unit-card__tag">Maracanaú</span>
+              <h3>Petzão Timbó</h3>
+              <ul class="unit-info">
+                <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Av. Vereador Edmilson Marques, 411A – esquina com a Rua 114<br>Timbó, Maracanaú – CE, 61936-460</span></li>
+                <li><svg aria-hidden="true"><use href="#i-clock"/></svg><span>Seg a Sex: 8h às 19h · Sáb: 8h às 18h<br><small>Consultório aos sábados até 12h30</small></span></li>
+              </ul>
+              <div class="unit-actions">
+                <a class="btn btn--green btn--sm" href="https://wa.me/5585992533007?text=Ol%C3%A1%2C%20Petz%C3%A3o%20Timb%C3%B3!%20Vim%20pelo%20site." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Loja (85) 99253-3007</a>
+                <a class="btn btn--green btn--sm" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o%20Timb%C3%B3!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Estética e Vet (85) 98861-4589</a>
+                <a class="btn btn--outline btn--sm" href="https://www.google.com/maps?cid=17668108816640209402" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Como chegar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="unit-card reveal">
+            <div class="unit-card__map">
+              <iframe title="Mapa do Petzão Maraponga, em Fortaleza" src="https://www.google.com/maps?q=Petz%C3%A3o+Pet+shop+Maraponga,+Fortaleza+-+CE&amp;z=17&amp;hl=pt-BR&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="unit-card__body">
+              <span class="unit-card__tag unit-card__tag--orange">Fortaleza</span>
+              <h3>Petzão Maraponga</h3>
+              <ul class="unit-info">
+                <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Av. Godofredo Maciel, 2640 – Loja 4 (Pátio Maraponga)<br>Maraponga, Fortaleza – CE</span></li>
+                <li><svg aria-hidden="true"><use href="#i-clock"/></svg><span>Seg a Sex: 8h às 18h · Sáb: 8h às 17h<br><small>Consultório aos sábados até 12h30</small></span></li>
+              </ul>
+              <div class="unit-actions">
+                <a class="btn btn--green btn--sm" href="https://wa.me/5585992433927?text=Ol%C3%A1%2C%20Petz%C3%A3o%20Maraponga!%20Vim%20pelo%20site." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> (85) 99243-3927</a>
+                <a class="btn btn--outline btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=Petz%C3%A3o%20Pet%20shop%20Maraponga%2C%20Fortaleza" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Como chegar</a>
+                <a class="btn btn--outline btn--sm" href="https://www.instagram.com/petzao_maraponga/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg> @petzao_maraponga</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="cta-band" id="contato">
+      <div class="container cta-band__inner">
+        <div>
+          <h2>Seu pet merece esse carinho.</h2>
+          <p>Chame a gente no WhatsApp e agende banho, tosa ou consulta em poucos minutos.</p>
+        </div>
+        <div class="cta-band__actions">
+          <a class="btn btn--green btn--lg" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20o%20meu%20pet." target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Agendar agora</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo.jpg" alt="Petzão Pet Shop" width="150" height="150" loading="lazy">
+        <p>Mais que um petshop, uma família para o seu pet.</p>
+      </div>
+      <div>
+        <h3>Navegue</h3>
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#estetica">Banho &amp; Tosa</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#unidades">Unidades</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Fale com a gente</h3>
+        <ul>
+          <li><a href="https://wa.me/5585992533007" target="_blank" rel="noopener">Loja Timbó · (85) 99253-3007</a></li>
+          <li><a href="https://wa.me/5585988614589" target="_blank" rel="noopener">Estética e Vet · (85) 98861-4589</a></li>
+          <li><a href="https://wa.me/5585992433927" target="_blank" rel="noopener">Maraponga · (85) 99243-3927</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Redes sociais</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/pet_zao/" target="_blank" rel="noopener">Instagram @pet_zao</a></li>
+          <li><a href="https://www.instagram.com/petzao_maraponga/" target="_blank" rel="noopener">Instagram @petzao_maraponga</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-year>2026</span> Petzão Pet Shop. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a class="wa-float" href="https://wa.me/5585988614589?text=Ol%C3%A1%2C%20Petz%C3%A3o!%20Vim%20pelo%20site." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+    <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+  </a>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
