@@ -3,6 +3,9 @@
 Site institucional do **Petzão Pet Shop** (Timbó/Maracanaú e Maraponga/Fortaleza).
 HTML, CSS e JavaScript puros: sem build, sem dependências e sem custo de hospedagem.
 
+**No ar:** <https://lohan-lucas.github.io/petzao/>
+
+
 ```
 index.html          → página principal
 404.html            → página de erro personalizada (autocontida)
@@ -41,12 +44,10 @@ Sem ele o site fica em `https://SEU-USUARIO.github.io/petzao/`.
 5. Em 1–2 minutos o site estará em `https://SEU-USUARIO.github.io/petzao/`.
 6. Teste a página de erro abrindo qualquer endereço inexistente, ex.: `https://SEU-USUARIO.github.io/petzao/teste`.
 
-### Depois de publicar
+### Se o endereço mudar (outro usuário ou domínio próprio)
 
-Troque os caminhos relativos abaixo pelo endereço completo, para a prévia aparecer bonita no WhatsApp/Facebook:
-
-- `index.html` → `<meta property="og:image" content="https://SEU-USUARIO.github.io/petzao/assets/img/og-image.jpg">`
-- `index.html` → no bloco `application/ld+json`, os dois `"image"` → `https://SEU-USUARIO.github.io/petzao/assets/img/logo.jpg`
+O `index.html` usa o endereço completo do site em alguns lugares (prévia do WhatsApp/Facebook e dados para o Google).
+Procure por `lohan-lucas.github.io/petzao/` em `index.html`, `robots.txt` e `sitemap.xml` e troque pelo novo endereço.
 
 ## Atualizar o site
 
